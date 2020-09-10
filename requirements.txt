@@ -1,0 +1,6 @@
+django==2.1
+django-filter
+djangorestframework
+django_plotly_dash
+dash
+pandas

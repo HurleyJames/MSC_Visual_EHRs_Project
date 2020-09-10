@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="{% static 'css/semantic.css' %}" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/theme.default.css' %}">
+        <script type="text/javascript" src="{% static 'js/My97DatePicker/WdatePicker.js' %}"></script>
+        <script src="{% static 'js/jquery35.js' %}"></script>
+        <script src="{% static 'js/tablesorter.js' %}"></script>
+        <script src="{% static 'js/tablesorterwidgets.js' %}"></script>
+        <!-- <script src="{% static 'js/semantic.js' %}"></script> -->
+        <style type="text/css">
+            .ui.segment.container {
+                width:720px;
+            }
+
+            .error_info{
+              display: inline-block;
+              font-size: 12px;
+              font-family: '黑体', sans-serif!important;
+            }
+
+            p {
+                font-family: 'Raleway', sans-serif;
+                font-size:18px;
+            }
+
+            /* body {
+                background:url({% static 'images/star_banner.jpg'%});
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-attachment:fixed
+            } */
+
+        </style>
+    </head>
+
+    <body>
+          {% load plotly_dash %}
+          {% plotly_app name="Chart1" ratio=0.5 %}
+
+    </body>
+</html>
