@@ -1,5 +1,19 @@
-# Visualization-EHRs
-A visual data profiling tool for Electronic Health Records (EHRs) dataset.
+<p align="center">
+    <img width="400" src="./assets/EHRs.jpg">
+</p>
+
+
+<div align="center">
+    <span><a target="_blank" href="README-zh.md">🇨🇳 中文文档</a></span>
+    <span>|</span>
+    <span>🇬🇧 English Version</span>
+</div>
+
+<div align="center">
+    <strong>A visual data profiling tool for Electronic Health Records (EHRs) dataset.</strong>
+</div>
+
+---
 
 ## 👀 Background
 
@@ -7,12 +21,12 @@ A visual data profiling tool for Electronic Health Records (EHRs) dataset.
 
 ## 🎯 Aim
 
-The aim of this project is to investigate effective visualization techniques for profiling EHRs, and implement them in a Python tool. For this you need to develop compact (sparkline-type or based on glyphs) methods that allow users to visualize descriptive statistics for hundreds of variables at a time. The descriptive statistics (see Abedjan et al., 2015) include cardinalities (e.g., null values and uniqueness), distributions (e.g., whole value and frst digit), patterns (e.g., formats and character sets), and comparisons of pairs of fields (e.g., admission vs. discharge date). The tool will allow users to interactively sort and filter the data that is displayed, perform simple aggregations (e.g., to combine fields or profile the first N characters of an EHR code) and simultaneously show visual profles for multiple subsets of the data (e.g., different years).
+The aim of this project is to investigate effective visualization techniques for profiling EHRs, and implement them in a Python tool. Hence, this project will develop compact (sparkline-type or based on glyphs) methods that allow users to visualize descriptive statistics for hundreds of variables at a time. The descriptive statistics (see Abedjan et al., 2015) include cardinalities (e.g., null values and uniqueness), distributions (e.g., whole value and first digit), patterns (e.g., formats and character sets), and comparisons of pairs of fields (e.g., admission vs. discharge date). The tool will allow users to interactively sort and filter the data that is displayed, perform simple aggregations (e.g., to combine fields or profile the first N characters of an EHR code) and simultaneously show visual profles for multiple subsets of the data (e.g., different years).
 
 ## 🚀 Quick start
 
-1. 使用 Pycharm 打开本项目，在 terminal 里输入`python manage.py runserver`
-2. 在网址里输入`localhost:8080/datagrid`，上传`EHR_statistic_app`目录下的`test_data.csv`文件，顶栏`Provider Name`选择`Program_Year`或者`Payment_Year`，然后`Submit`，即可看到可视化分析后的界面
+1. Open this Django project by Pycharm and type `python manage.py runserver` in the terminal.
+2. Enter `localhost:8080/datagrid` in the browser, upload the `test_data.csv` file in the `EHR_statistic_app` directory of this project, select `Program_Year` or `Payment_Year` in the top bar `Provider Name`, and then click the `Submit` button to see the visual analysis interface.
 
 ## 🖥 Screenshot
 
