@@ -6,7 +6,7 @@
 <div align="center">
     <span>🇨🇳 中文文档</span>
     <span>|</span>
-    <span><a target="_blank" href="README.md">🇬🇧 English Version</a></span>
+    <span>🇬🇧 <a target="_blank" href="README.md">English Version</a></span>
 </div>
 
 <div align="center">

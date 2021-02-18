@@ -4,7 +4,7 @@
 
 
 <div align="center">
-    <span><a target="_blank" href="README-zh.md">🇨🇳 中文文档</a></span>
+    <span>🇨🇳 <a target="_blank" href="README-zh.md">中文文档</a></span>
     <span>|</span>
     <span>🇬🇧 English Version</span>
 </div>
