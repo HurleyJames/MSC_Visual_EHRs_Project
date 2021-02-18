@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
+
+from EHR_statistic_app import views
 from EHR_statistic_app.mydash import datagrid, make_data
 
 urlpatterns = [
+    path('', views.index),
     path('admin/', admin.site.urls),
     path('django_plotly_dash/', include('django_plotly_dash.urls')),
     url(r'^datagrid/', datagrid, name='datagrid'),
